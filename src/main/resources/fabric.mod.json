@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "no-main-hand",
+  "version": "${version}",
+  "name": "No Main Hand",
+  "description": "Visually remove the main hand. Keep the empty sleeve or hide it in the skin settings.",
+  "authors": [
+    "crazysmc"
+  ],
+  "contact": {
+    "homepage": "https://github.com/crazysmc/no-main-hand",
+    "sources": "https://github.com/crazysmc/no-main-hand"
+  },
+  "license": "MIT",
+  "icon": "assets/no-main-hand/icon.png",
+  "environment": "client",
+  "mixins": [
+    {
+      "config": "no-main-hand.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=17"
+  }
+}
