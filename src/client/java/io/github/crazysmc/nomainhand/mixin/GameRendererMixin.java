@@ -1,4 +1,4 @@
-package io.github.crazysmc.mixin.client;
+package io.github.crazysmc.nomainhand.mixin;
 
 import net.minecraft.client.render.GameRenderer;
 import org.spongepowered.asm.mixin.Mixin;

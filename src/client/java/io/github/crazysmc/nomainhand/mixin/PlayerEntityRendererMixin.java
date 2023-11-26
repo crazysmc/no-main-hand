@@ -1,4 +1,4 @@
-package io.github.crazysmc.mixin.client;
+package io.github.crazysmc.nomainhand.mixin;
 
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.entity.EntityRendererFactory;
@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class PlayerEntityRendererMixin
     extends LivingEntityRenderer<AbstractClientPlayerEntity, PlayerEntityModel<AbstractClientPlayerEntity>>
 {
-  public PlayerEntityRendererMixin(EntityRendererFactory.Context ctx, PlayerEntityModel<AbstractClientPlayerEntity> model, float shadowRadius)
+  private PlayerEntityRendererMixin(EntityRendererFactory.Context ctx, PlayerEntityModel<AbstractClientPlayerEntity> model, float shadowRadius)
   {
     super(ctx, model, shadowRadius);
   }
