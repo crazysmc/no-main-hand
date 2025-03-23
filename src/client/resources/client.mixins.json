@@ -4,7 +4,7 @@
   "compatibilityLevel": "JAVA_17",
   "client": [
     "GameRendererMixin",
-    "PlayerEntityRendererMixin"
+    "PlayerEntityModelMixin"
   ],
   "injectors": {
     "defaultRequire": 1
